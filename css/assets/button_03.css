@@ -1,0 +1,137 @@
+
+/*----------------------------------*/
+/*------------Button 03-------------*/
+/*----------------------------------*/
+
+.Button_base_03{
+    position:relative;
+    display: block;
+    width:170px;
+    height: 50px;
+}
+
+.Button_base_03 a{
+    display: block;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:160px;
+    height: 45px;
+    z-index: 10;
+    padding: 5px;
+    /*Background Settings*/
+    background:transparent;
+
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in ;
+    -webkit-transition: all .3s ease-in ;
+    transition:all .3s ease-in;
+    text-decoration: none;
+    
+
+
+}
+
+.Button_base_03 h1{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 45px;
+    z-index: 100;
+    padding: 5px;
+    text-decoration: none;
+   
+    box-shadow: 0px 1px 2px black,inset 0px -20px 30px #000; /*fallback for gradient in IE and Opera*/
+
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'ChunkFiveRegular',Helvetica,Arial;
+    text-align: center;
+    line-height: 50px;
+
+
+
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in ;
+    -webkit-transition: all .3s ease-in ;
+    transition:all .3s ease-in;
+
+    border-radius:10px 0px 0px 10px;
+
+
+    -moz-box-shadow: 0px 1px 2px black;
+    -webkit-box-shadow: 0px 1px 2px black;
+    
+}
+
+
+.Button_base_03 h2{
+    display: block;
+    position: absolute;
+    top:0px;
+    right: -10px;
+    width: 80px;
+    height: 45px;
+    z-index: 100;
+    padding: 5px;
+    text-decoration: none;
+
+
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'ChunkFiveRegular',Helvetica,Arial;
+    line-height: 150%;
+    text-align: center;
+    line-height: 50px;
+
+
+
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in ;
+    -webkit-transition: all .3s ease-in ;
+    transition:all .3s ease-in;
+
+    border-radius:0px 10px 10px 0px;
+
+
+    -moz-box-shadow: 0px 1px 2px black;
+    -webkit-box-shadow: 0px 1px 2px black;
+    
+}
+
+.Button_base_03 h3{
+    display: block;
+    position: absolute;
+    top:5px;
+    right: 0px;
+    width: 170px;
+    height: 45px;
+    z-index: 100;
+    font-size: 14px;
+    line-height: 50px;
+    text-decoration: none;
+
+    z-index: 0;
+
+
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in ;
+    -webkit-transition: all .3s ease-in ;
+    transition:all .3s ease-in;
+
+    border-radius:0px 10px 10px 0px;
+
+    -moz-box-shadow: 0px 1px 2px black;
+    -webkit-box-shadow: 0px 1px 2px black;
+}
+
+
+.Button_base_03:hover h1{
+    left:-40px;
+}
+
+.Button_base_03:hover h2{
+    right:-40px;
+}

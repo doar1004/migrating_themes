@@ -1,0 +1,158 @@
+/*----------------------------------*/
+/*------------Button 06-------------*/
+/*----------------------------------*/
+
+.Button_base_06{
+    position:relative;
+    display: block;
+    width:300px;
+    height: 50px;
+}
+
+.Button_base_06 a{
+    display: block;
+    position: absolute;
+    top:0px;
+    left: 0px;
+
+    width:230px;
+    height: 45px;
+    z-index: 20;
+
+    text-align: left;
+
+    padding:5px 10px 5px 10px;
+
+    height: 45px;
+    line-height: 45px;
+
+    text-decoration: none;
+
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in ;
+    -webkit-transition: all .1s ease-in ;
+    transition:all .1s ease-in;
+
+    border-radius:10px;
+
+    -moz-box-shadow: 0px 1px 2px black;
+    -webkit-box-shadow: 0px 1px 2px black;
+    box-shadow: 0px 1px 2px black;
+}
+
+.block_06{
+    display: block;
+    position: absolute;
+    height: 28px;
+    width: 125px;
+    text-indent: -9999px;
+    z-index: 5;
+}
+
+.Button_base_06 .p_1{
+    top:0px;
+    left: 0px;
+    border-radius:10px 0px 0px 0px;
+    opacity:1; visibility: visible;
+
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in ;
+    -webkit-transition: all .3s ease-in ;
+    transition:all .3s ease-in;
+}
+.Button_base_06 .p_2{
+    top:0px;
+    left:125px;
+    border-radius:0px 10px 0px 0px;
+    opacity:1; visibility: visible;
+
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in ;
+    -webkit-transition: all .3s ease-in ;
+    transition:all .3s ease-in;
+}
+.Button_base_06 .p_3{
+    top:28px;
+    left: 0px;
+    border-radius:0px 0px 0px 10px;
+    opacity:1; visibility: visible;
+
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in ;
+    -webkit-transition: all .3s ease-in ;
+    transition:all .3s ease-in;
+}
+.Button_base_06 .p_4{
+    top:28px;
+    left: 125px;
+    border-radius:0px 0px 10px 0px;
+    opacity:1; visibility: visible;
+
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in ;
+    -webkit-transition: all .3s ease-in ;
+    transition:all .3s ease-in;
+    
+}
+
+
+
+.file_size_06{
+    display: block;
+    position: absolute;
+    top:0px;
+    left: 0px;
+
+    width:230px;
+    height: 45px;
+    z-index: 0;
+
+    padding:5px 10px 5px 10px;
+
+    color:white;
+    text-decoration: none;
+
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in ;
+    -webkit-transition: all .1s ease-in ;
+    transition:all .1s ease-in;
+
+    border-radius:10px;
+
+    -moz-box-shadow: 0px 1px 2px black;
+    -webkit-box-shadow: 0px 1px 2px black;
+    box-shadow: 0px 1px 2px black;
+    text-align: center;
+    text-shadow:1px 1px black;
+}
+
+.Button_base_06:hover a{
+    opacity:0; visibility: hidden;
+}
+
+.Button_base_06:hover .p_1{
+
+    left:-20px;
+    top:-20px;
+    opacity:0; visibility: hidden;
+}
+
+.Button_base_06:hover .p_2{
+
+    top:-20px;
+    left:145px;
+    opacity:0; visibility: hidden;
+}
+.Button_base_06:hover .p_3{
+
+    left:-20px;
+    top:48px;
+    opacity:0; visibility: hidden;
+}
+
+.Button_base_06:hover .p_4{
+
+    top:48px;
+    left:145px;
+    opacity:0; visibility: hidden;
+}

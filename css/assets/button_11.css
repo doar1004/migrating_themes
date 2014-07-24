@@ -1,0 +1,72 @@
+/*----------------------------------*/
+/*------------Button 11-------------*/
+/*----------------------------------*/
+
+.Button_base_11{
+    position:relative;
+    display: block;
+    width:100px;
+    height: 40px;
+}
+
+.Button_base_11 img{
+    display: block;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    top:0px;
+    width:30px; 
+    height: 30px;
+
+    border-radius:30px;
+    
+    padding:12px 10px 8px;
+}
+
+
+.Button_base_11 h1{
+    z-index: 0;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    opacity:0; visibility: hidden;
+    position: absolute;
+    left: -10px;
+    top: -50px;
+    font-size: 15px;
+    padding: 10px;
+    line-height: 100%;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Helvetica,Arial;
+    text-shadow:1px 1px black;
+}
+
+.Button_base_11:hover h1{
+    opacity:1; visibility: visible;
+}
+
+.Button_base_11 .triangle-top {
+    border-style: solid;
+    border-width: 13px;
+    height: 0;
+    width: 0;
+    text-indent: -9999px;
+    top: -17px;
+    left:0px;
+    position: absolute;
+    opacity:0; visibility: hidden;
+
+
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+.Button_base_11:hover .triangle-top{
+    opacity:1; visibility: visible;
+    left: 12px;
+
+}

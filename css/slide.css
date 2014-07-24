@@ -1,0 +1,150 @@
+
+#container_slide {
+	width:630px;
+	/*padding:10px;
+	margin:0 auto;*/
+	position:relative;
+	z-index:0;
+}
+
+/*
+	Slideshow
+*/
+
+#slides {
+	/*position:absolute;
+	top:15px;
+	left:4px;*/
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:630px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:630px;
+	height:320px;
+	display:block;
+}
+
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:120px;
+	width:55px;
+	height:56px;
+	display:block;
+	z-index:101;
+}
+
+
+#slides .prev {
+	left:0;
+}
+
+#slides .next {
+	right:0;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	width:115px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 600;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+	text-decoration: none;
+}
+
+.pagination li.current a {
+	background-position:0 -13px;
+	background-repeat: no-repeat;
+}
+
+/*
+	Caption
+*/
+
+.caption {
+	z-index:500;
+	position:absolute;
+	bottom:-35px;
+	left:10px;
+	height:90px;
+	padding:10px 20px 0 20px;
+	background:#0b4e81;
+	background:rgba(11,78,129,.8);
+	width:570px;
+	font-size:14px;
+	font-family: arial;
+	line-height:1.33;
+	color:#fff;
+	/*border-top:1px solid #000;*/
+	text-shadow:none;
+}
+
+	.caption h1{
+		font-size: 22px;
+		font-weight: bold;
+		margin: 0;
+		padding: 0;
+	}
+
+	.caption p{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.caption a, .caption a:visited{
+	color: #fff;
+	text-decoration: none;
+	}	
+	
+	.caption a.more{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	}	

@@ -1,0 +1,29 @@
+@import url("assets/colors.css");
+@import url("assets/button_01.css");
+@import url("assets/button_02.css");
+@import url("assets/button_03.css");
+@import url("assets/button_04.css");
+@import url("assets/button_05.css");
+@import url("assets/button_06.css");
+@import url("assets/button_07.css");
+@import url("assets/button_08.css");
+@import url("assets/button_09.css");
+@import url("assets/button_10.css");
+@import url("assets/button_11.css");
+@import url("assets/button_12.css");
+@import url("assets/button_13.css");
+@import url("assets/button_14.css");
+@import url("assets/button_15.css");
+@import url("assets/button_16.css");
+@import url("assets/button_17.css");
+@import url("button_18_preview.css");
+
+
+.Chunk_Big{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'ChunkFiveRegular',Helvetica,Arial;
+    line-height: 150%;
+    text-align: center;
+}
+

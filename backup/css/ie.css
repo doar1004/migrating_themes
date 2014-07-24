@@ -1,0 +1,11 @@
+html, body{ 
+ font: normal 13px/20px droidsans, arial, verdana, tahoma;
+} 
+
+.menu ul.mainmenu {
+font: normal 14px droidsans, arial, verdana;
+}
+
+.boxtop h1.search, .boxtop h1.latest{
+font: normal 21px droidsans, arial, verdana, tahoma;
+}		

@@ -1,0 +1,133 @@
+/*----------------------------------*/
+/*------------Button 14-------------*/
+/*----------------------------------*/
+
+.Button_base_14{
+    position:relative;
+    display: block;
+    width:300px;
+    height: 50px;
+}
+
+.Button_base_14 a{
+    display: block;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    top:0px;
+    width:300px;
+    z-index: 10;
+
+
+    text-align: center;
+
+    padding:5px 10px 5px 10px;
+    box-shadow: 0px 1px 2px black ,inset 0px -20px 30px #000; /*fallback for gradient in IE and Opera*/
+    text-decoration: none;
+
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in ;
+    -webkit-transition: all .1s ease-in ;
+    transition:all .1s ease-in;
+
+    border-radius:10px;
+
+    -moz-box-shadow: 0px 1px 2px black;
+    -webkit-box-shadow: 0px 1px 2px black;
+}
+
+.Button_base_14 .button_base_14_hover{
+
+    width:300px; 
+    padding: 10px;
+    border-radius:10px;
+    position: absolute;
+    display: block;
+    top:0px;
+    left: 0px;
+
+    opacity:0; visibility: hidden;
+
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Helvetica,Arial;
+    line-height: 110%;
+    text-align: center;
+    color:white;
+    text-shadow:1px 1px black;
+
+}
+
+.Button_base_14:hover .button_base_14_hover {
+    opacity:1; visibility: visible;
+    top: -82px;
+}
+.Button_base_14 .triangle-top {
+    border-style:solid;
+    border-width:13px;
+    height:0;
+    width:0;
+    text-indent: -9999px;
+    top:-14px;
+    left:0px;
+    position: absolute;
+    opacity:0; visibility: hidden;
+
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    z-index: 5;
+}
+
+.Button_base_14:hover .triangle-top{
+    opacity:1; visibility: visible;
+    left:150px;
+}
+
+
+.Button_base_14 .login{
+    border:none;
+    background: #222222;
+    border-radius:10px;
+    padding: 5px;
+    color:white;
+    font-size: 11px;
+    font-family: Helvetica,Arial;
+    line-height: 100%;
+    margin-bottom: 5px;
+}
+
+.Button_base_14 .form_button{
+    border:none;
+    background: #222222;
+    border-radius:10px;
+    padding: 5px 10px;
+    color:white;
+    font-size: 11px;
+    font-family: Helvetica,Arial;
+    line-height: 100%;
+    cursor: pointer;
+}
+
+
+.Button_base_14 .form_button:hover{
+    background: #3a4245;
+}
+
+
+.Button_base_14:hover a{
+    /*Background Settings*/
+    background: #222222;
+    background-image: -webkit-gradient(linear, left top, left bottom,
+        color-stop(0, #3a4245),
+        to(#222222));
+    background-image: -moz-linear-gradient(top , #3a4245, #222222);
+    background-image: linear-gradient(top , #3a4245, #222222);
+    box-shadow: inset 0px -20px 30px #222222; /*fallback for gradient in IE and Opera*/
+}

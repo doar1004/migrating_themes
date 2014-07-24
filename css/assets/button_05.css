@@ -1,0 +1,74 @@
+/*----------------------------------*/
+/*------------Button 05-------------*/
+/*----------------------------------*/
+
+.Button_base_05{
+    position:relative;
+    display: block;
+    width:300px;
+    height: 50px;
+}
+
+.Button_base_05 a{
+    display: block;
+    position: absolute;
+    top:0px;
+    left: 0px;
+
+    width:230px;
+
+    text-align: left;
+
+    padding:5px 10px 5px 10px;
+    text-decoration: none;
+
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in ;
+    -webkit-transition: all .3s ease-in ;
+    transition:all .3s ease-in;
+
+    border-radius:10px;
+
+    -moz-box-shadow: 0px 1px 2px black;
+    -webkit-box-shadow: 0px 1px 2px black;
+    
+    height: 50px;
+    line-height: 55px;
+}
+
+.Button_base_05 h1{
+    position: absolute;
+    display: block;
+    right: 35px;
+    width: 0px;
+    height: 0px;
+    top: -35px;
+    border-radius: 60px;
+    font-size: 0px;
+    padding: 10px;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    animation-delay: 1s;
+    z-index: 15;
+    opacity:0; visibility: hidden;
+    line-height: 100%;
+    border:4px solid white;
+
+    -moz-box-shadow: 0px 1px 2px black;
+    -webkit-box-shadow: 0px 1px 2px black;
+    text-align: center;
+    
+    color:white;
+    font-family: Helvetica,Arial;
+    text-shadow:1px 1px black;
+}
+
+.Button_base_05:hover h1{
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    right: 15px;
+    opacity:1; visibility: visible;
+}

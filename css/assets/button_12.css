@@ -1,0 +1,71 @@
+
+/*----------------------------------*/
+/*------------Button 12-------------*/
+/*----------------------------------*/
+
+.Button_base_12{
+    position:relative;
+    display: block;
+    width:100px;
+    height: 40px;
+}
+
+.Button_base_12 img{
+    display: block;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    top:0px;
+    width:30px; 
+    height: 30px;
+
+    border-radius:30px;
+
+    padding: 12px 10px 8px;
+    
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    z-index: 5;
+}
+
+.Button_base_12:hover img{
+    left:50px;
+     -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+
+.Button_base_12 h1{
+    text-align: center;
+    z-index: 0;
+    opacity:0; visibility: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 14px;
+    padding: 10px 50px 10px 10px;
+    line-height: 100%;
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: Helvetica,Arial;
+    text-shadow:1px 1px black;
+    height: 30px;
+
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+.Button_base_12:hover h1{
+    opacity:1; visibility: visible;
+}

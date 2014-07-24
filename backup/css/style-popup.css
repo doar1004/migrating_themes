@@ -1,0 +1,110 @@
+@font-face {
+	font-family: droidsans;
+	src: url('../font/DroidSans.otf');
+}
+
+@font-face {
+	font-family: droidsans;
+	font-weight: bold;
+	src: url('../font/DroidSans-Bold.otf');
+}
+
+html, body{ 
+ text-align:center; 
+ margin: 0;
+ background-color: #ccc;
+ color: #4b4e56;
+ font: normal 13px/20px arial, verdana, tahoma;
+} 
+
+
+/* popup lightbox */
+
+#container-popup {
+font-family: arial;
+width: 785px;
+margin: 10px auto;
+background-color: #ffffff;
+padding: 15px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;	
+-moz-box-shadow: 0 0 5px 1px #666;
+-webkit-box-shadow: 0 0 5px 1px #666;
+}
+
+
+.popup-map{
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;	
+background-color: #d6d6d5;
+overflow: auto;
+height: 610px;
+}
+
+	.popup-map h1{
+	margin: 0;
+	padding: 20px 0;
+	font-size: 180%;
+	font-weight: normal;
+	color: #4b4e56;
+	font-family: droidsans;
+	}
+	
+	.popup-map .wrap-col{
+	margin: 10px 0 0 0;
+	}	
+	
+		.popup-map .wrap-col .left{
+		float: left;
+		width: 252px;
+		margin: 0 20px 20px 20px;
+		}		
+	
+		.popup-map .wrap-col .right{
+		float: right;
+		text-align: left;
+		padding: 5px 20px;
+		margin: 0 40px 20px 0;
+		background-color: #ffffff;
+		font-size: 150%;
+		color: #747881;
+		line-height: 120%;
+		width: 380px; /*470*/	
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;			
+		}		
+		
+			
+	ul.popupmenu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font: normal 16px arial, verdana;
+	text-align: left;
+	}
+
+		ul.popupmenu li {
+		margin: 0 0 5px 0;
+		padding: 0;
+		}	
+
+				ul.popupmenu li a.menupopup {background: transparent url(../images/bg-lighboxmenu.png) no-repeat;}	
+			
+			ul.popupmenu li a, ul.popupmenu li a:visited {
+			color: #60646d;
+			display: block;
+			width: 197px; /*normal 252px*/
+			height: 25px; /*normal 42px*/
+			padding: 12px 10px 5px 45px;
+			text-decoration: none;
+			}
+			
+			ul.popupmenu li a:hover, ul.popupmenu li a.selected {
+			/*background-position: top right;*/
+			color: #000000;
+			text-decoration: none;
+			}			
+		

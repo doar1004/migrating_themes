@@ -1,0 +1,26 @@
+name = BaKTI
+description = BaKTI.org website themes
+version = VERSION
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = style.css
+
+regions[search] = search
+regions[languageswitcher] = Language Switcher
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[bannerpage] = Banner Page
+regions[content] = Content
+regions[hometopcontent] = Home top content
+regions[homebottomcontent] = Home bottom content
+regions[header] = Header
+regions[footer] = Footer
+regions[menubar] = Menu Bar
+regions[slideshow] = Slide Show
+regions[helpdesk] = Help Desk
+regions[redaksional] = Redaksional
+
+; Information added by drupal.org packaging script on 2011-05-25
+version = "6.22"
+project = "drupal"
+datestamp = "1306357015"

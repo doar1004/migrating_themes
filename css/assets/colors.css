@@ -1,0 +1,336 @@
+.dark_red{
+    background: #6d0019;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #6d0019), to(#a90329));
+    background-image: -moz-linear-gradient(top , #6d0019, #a90329);
+    background-image: linear-gradient(top , #6d0019, #a90329);
+    box-shadow: 0px 1px 2px black,inset 0px -20px 30px #a90329; /*fallback for gradient in IE and Opera*/
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.dark_red_p{
+    background: #a90329;
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.dark_red_up{
+    border-color:  #a90329 transparent transparent transparent;
+}
+.dark_red_left{
+    border-color:   transparent transparent transparent #a90329;
+}
+.dark_red_down{
+    border-color:   transparent transparent #6d0019 transparent;
+}
+
+.black{
+    background: #2A2E31;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2a2e31), to(#000));
+    background-image: -moz-linear-gradient(top , #2a2e31, #000);
+    background-image: linear-gradient(top , #2a2e31, #000);
+    box-shadow: 0px 1px 2px black,inset 0px -20px 30px #000; /*fallback for gradient in IE and Opera*/
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.black_p{
+    background: #000;
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.black_up{
+    border-color:  #000 transparent transparent transparent;
+}
+.black_left{
+    border-color:   transparent transparent transparent #000;
+}
+.black_down{
+    border-color:   transparent transparent #2A2E31 transparent;
+}
+
+.light_blue{
+    background: #77D4F3;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #77d4f3), to(#00a9e0));
+    background-image: -moz-linear-gradient(top , #77d4f3, #00a9e0);
+    background-image: linear-gradient(top , #77d4f3, #00a9e0);
+    box-shadow: 0px 1px 2px black,inset 0px -20px 30px #00A9E0; /*fallback for gradient in IE and Opera*/
+    color:black;
+}
+.light_blue_p{
+    background: #00a9e0;
+    color:black;
+}
+.light_blue_up{
+    border-color:  #00a9e0 transparent transparent transparent;
+}
+.light_blue_left{
+    border-color:   transparent  transparent transparent #00a9e0;
+}
+.light_blue_down{
+    border-color:   transparent transparent #77D4F3 transparent;
+}
+
+.dark_green{
+    background: #b1c357;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #b1c357), to(#779531));
+    background-image: -moz-linear-gradient(top , #b1c357, #779531);
+    background-image: linear-gradient(top , #b1c357, #779531);
+    box-shadow: inset 0px -20px 30px #779531; /*fallback for gradient in IE and Opera*/
+    color:black;
+}
+.dark_green_p{
+    background: #779531;
+    color:black;
+}
+.dark_green_up{
+    border-color:  #779531 transparent transparent transparent;
+}
+.dark_green_left{
+    border-color:   transparent  transparent transparent #779531;
+}
+.dark_green_down{
+    border-color:   transparent transparent #b1c357 transparent;
+}
+
+.light_grey{
+    background: #eef6f9;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eef6f9), to(#bdc6cd));
+    background-image: -moz-linear-gradient(top , #eef6f9, #bdc6cd);
+    background-image: linear-gradient(top , #eef6f9, #bdc6cd);
+    box-shadow: inset 0px -20px 30px #bdc6cd; /*fallback for gradient in IE and Opera*/
+    color:black;
+}
+.light_grey_p{
+    background: #bdc6cd;
+    color:black;
+}
+.light_grey_up{
+    border-color:  #bdc6cd transparent transparent transparent;
+}
+.light_grey_left{
+    border-color:   transparent transparent transparent #bdc6cd;
+}
+.light_grey_down{
+    border-color:   transparent transparent #eef6f9 transparent;
+}
+
+.red{
+    background: #d20f0a;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d20f0a), to(#960505));
+    background-image: -moz-linear-gradient(top , #d20f0a, #960505);
+    background-image: linear-gradient(top , #d20f0a, #960505);
+    box-shadow: inset 0px -20px 30px #960505; /*fallback for gradient in IE and Opera*/
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.red_p{
+    background: #960505;
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.red_up{
+    border-color:  #960505 transparent transparent transparent;
+}
+.red_left{
+    border-color:   transparent transparent transparent #960505;
+}
+.red_down{
+    border-color:   transparent transparent #d20f0a transparent;
+}
+
+
+.orange{
+    background: #ffa443;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffa443), to(#ff7400));
+    background-image: -moz-linear-gradient(top , #ffa443, #ff7400);
+    background-image: linear-gradient(top , #ffa443, #ff7400);
+    box-shadow: inset 0px -20px 30px #ff7400; /*fallback for gradient in IE and Opera*/
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.orange_p{
+    background: #ff7400;
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.orange_up{
+    border-color:  #ff7400 transparent transparent transparent;
+}
+.orange_left{
+    border-color:   transparent transparent transparent #ff7400;
+}
+.orange_down{
+    border-color:   transparent transparent #ffa443 transparent;
+}
+
+.blue{
+    /*Background Settings*/
+    background: #0071b5;
+    background-image: -webkit-gradient(linear, left top, left bottom,
+        color-stop(0, #0071b5),
+        color-stop(.5, #0071b5),
+        color-stop(.5, #0284d1),
+        to(#0284d1));
+    background-image: -moz-linear-gradient(top , #0071b5, #0071b5 50%, #0284d1 51%, #0284d1);
+    background-image: linear-gradient(top , #0071b5, #0071b5 50%, #0284d1 51%, #0284d1);
+    box-shadow: inset 0px -20px 30px #0284d1; /*fallback for gradient in IE and Opera*/
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.blue_p{
+    /*Background Settings*/
+    background: #0284d1;
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.blue_up{
+    border-color:  #0284d1 transparent transparent transparent;
+}
+.blue_left{
+    border-color:   transparent transparent transparent #0284d1;
+}
+.blue_down{
+    border-color:   transparent transparent #0071b5 transparent;
+}
+
+.light_green{
+    background: #c9ff30;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #c9ff30), to(#7be31d));
+    background-image: -moz-linear-gradient(top , #c9ff30, #7be31d);
+    background-image: linear-gradient(top , #c9ff30, #7be31d);
+    box-shadow: inset 0px -20px 30px #7be31d; /*fallback for gradient in IE and Opera*/
+    color:black;
+}
+.light_green_p{
+    background: #7be31d;
+    color:black;
+}
+.light_green_up{
+    border-color:  #7be31d transparent transparent transparent;
+}
+.light_green_left{
+    border-color:   transparent transparent transparent #7be31d;
+}
+.light_green_down{
+    border-color:   transparent transparent #c9ff30 transparent;
+}
+
+
+.yellow{
+    background: #f8d202;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f8d202), to(#e7a300));
+    background-image: -moz-linear-gradient(top , #f8d202, #e7a300);
+    background-image: linear-gradient(top , #f8d202, #e7a300);
+    box-shadow: inset 0px -20px 30px #e7a300; /*fallback for gradient in IE and Opera*/
+    color:black;
+}
+.yellow_p{
+    background: #e7a300;
+    color:black;
+}
+.yellow_up{
+    border-color:  #e7a300 transparent transparent transparent;
+}
+.yellow_left{
+    border-color:   transparent transparent transparent #e7a300;
+}
+.yellow_down{
+    border-color:   transparent transparent #f8d202 transparent;
+}
+
+
+.turkuaz{
+    background: #009a90;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #009a90), to(#007d75));
+    background-image: -moz-linear-gradient(top , #009a90, #007d75);
+    background-image: linear-gradient(top , #009a90, #007d75);
+    box-shadow: inset 0px -20px 30px #007d75; /*fallback for gradient in IE and Opera*/
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.turkuaz_p{
+    background: #007d75;
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.turkuaz_up{
+    border-color:  #007d75 transparent transparent transparent;
+}
+.turkuaz_left{
+    border-color:   transparent transparent transparent #007d75;
+}
+.turkuaz_down{
+    border-color:   transparent transparent #009a90 transparent;
+}
+
+
+.violet{
+    background: #c8b1d7;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #c8b1d7), to(#7a6189));
+    background-image: -moz-linear-gradient(top , #c8b1d7, #7a6189);
+    background-image: linear-gradient(top , #c8b1d7, #7a6189);
+    box-shadow: inset 0px -20px 30px #7a6189; /*fallback for gradient in IE and Opera*/
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+
+.violet_p{
+    background: #7a6189;
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.violet_up{
+    border-color:  #7a6189 transparent transparent transparent;
+}
+.violet_left{
+    border-color:   transparent transparent transparent #7a6189;
+}
+.violet_down{
+    border-color:   transparent transparent #c8b1d7 transparent;
+}
+
+.green{
+    background: #8ae234;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #8ae234), to(#4e9a06));
+    background-image: -moz-linear-gradient(top , #8ae234, #4e9a06);
+    background-image: linear-gradient(top , #8ae234, #4e9a06);
+    box-shadow: inset 0px -20px 30px #4e9a06; /*fallback for gradient in IE and Opera*/
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.green_p{
+    background: #4e9a06;
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.green_up{
+    border-color:  #4e9a06 transparent transparent transparent;
+}
+.green_left{
+    border-color:   transparent transparent transparent #4e9a06;
+}
+.green_down{
+    border-color:   transparent transparent #8ae234 transparent;
+}
+
+.pink{
+    background: #ff89c8;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ff89c8), to(#e10178));
+    background-image: -moz-linear-gradient(top , #ff89c8, #e10178);
+    background-image: linear-gradient(top , #ff89c8, #e10178);
+    box-shadow: inset 0px -20px 30px #e10178; /*fallback for gradient in IE and Opera*/
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.pink_p{
+    background: #e10178;
+    color:white;
+    text-shadow:1px 1px #323232;
+}
+.pink_up{
+    border-color:  #e10178 transparent transparent transparent;
+}
+.pink_left{
+    border-color:   transparent transparent transparent #e10178;
+}
+.pink_down{
+    border-color:   transparent transparent #ff89c8 transparent;
+}
