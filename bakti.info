@@ -1,7 +1,7 @@
 name = BaKTI
 description = BaKTI.org website themes
 version = VERSION
-core = 7.x
+core = 6.x
 stylesheets[all][] = style.css
 
 regions[search] = search
